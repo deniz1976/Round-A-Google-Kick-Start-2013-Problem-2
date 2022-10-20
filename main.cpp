@@ -1,5 +1,3 @@
-
-
 /**
  * @name Deniz Mutlu
  */
@@ -94,13 +92,13 @@ std::string getnum(char a) {
 }
 
 // first format is 3-4-4 123 4567 8912
-std::string firstFormat(std::string &phoneNumber) {
+std::string firstFormat(const std::string &phoneNumber) {
     std::string multiples[] = {"double ", "triple ", "quadruple ", "quintuple ", "sextuple ", "septuple ", "octuple ",
                                "nonuple ", "decuple "};
 
-    std::string firstPart = phoneNumber.substr(0, 3);
-    std::string secondPart = phoneNumber.substr(3, 4);
-    std::string thirdPart = phoneNumber.substr(7);
+    std::string firstPart = phoneNumber.substr(0, 3); // 0 1 2
+    std::string secondPart = phoneNumber.substr(3, 4); // 3 4 5 6
+    std::string thirdPart = phoneNumber.substr(7); // 7 8 9 10
 
     char firstArr[10] = {phoneNumber.at(0), phoneNumber.at(1), phoneNumber.at(2), 'a', 'b', 'c', 'd', 'e', 'f', 'g'};
     char secondArr[10] = {phoneNumber.at(3), phoneNumber.at(4), phoneNumber.at(5), phoneNumber.at(6), 'a', 'b', 'c',
@@ -162,7 +160,7 @@ std::string firstFormat(std::string &phoneNumber) {
     answer += " - ";
     counter = 0;
 
-    for (int i ; counter < 4; i++) {
+    for (int i; counter < 4; i++) {
         i = counter;
         string x = getnum(thirdArr[i]);
         if (thirdArr[i] == thirdArr[i + 1]) {
@@ -194,9 +192,106 @@ std::string firstFormat(std::string &phoneNumber) {
 
 }
 
-//void secondFormat(const std::string &phoneNumber) {
-//    std::cout << phoneNumber << std::endl;
-//}
+// second format is 3-3-5 123 456 78912
+std::string secondFormat(const std::string &phoneNumber) {
+    std::string multiples[] = {"double ", "triple ", "quadruple ", "quintuple ", "sextuple ", "septuple ", "octuple ",
+                               "nonuple ", "decuple "};
+
+    std::string firstPart = phoneNumber.substr(0, 3); // 0 1 2
+    std::string secondPart = phoneNumber.substr(3, 3); // 3 4 5
+    std::string thirdPart = phoneNumber.substr(6); // 6 7 8 9 10
+
+    char firstArr[10] = {phoneNumber.at(0), phoneNumber.at(1), phoneNumber.at(2), 'a', 'b', 'c', 'd', 'e', 'f', 'g'};
+    char secondArr[10] = {phoneNumber.at(3), phoneNumber.at(4), phoneNumber.at(5), 'a', 'b', 'c',
+                          'd', 'f', 'g', 'h'};
+    char thirdArr[10] = {phoneNumber.at(6), phoneNumber.at(7), phoneNumber.at(8), phoneNumber.at(9), phoneNumber.at(10),
+                         'a', 'b', 'c',
+                         'd', 'f'};
+
+    std::string answer;
+    int counter = 0;
+    for (int i; counter < 3; i++) {
+        i = counter;
+        string x = getnum(firstArr[i]);
+        if (firstArr[i] == firstArr[i + 1]) {
+            i += 1;
+            if (firstArr[i] == firstArr[i + 1]) {
+//                i += 1;
+                counter += 3;
+                answer += multiples[1] + x;
+            } else {
+                i += 1;
+                answer += multiples[0] + x;
+                counter += 2;
+            }
+        } else {
+            answer += x;
+            counter += 1;
+        }
+    }
+
+    answer += " - ";
+    counter = 0;
+
+    for (int i; counter < 3; i++) {
+        i = counter;
+        string x = getnum(secondArr[i]);
+        if (secondArr[i] == secondArr[i + 1]) {
+            i += 1;
+            if (secondArr[i] == secondArr[i + 1]) {
+//                i += 1;
+                counter += 3;
+                answer += multiples[1] + x;
+            } else {
+                i += 1;
+                answer += multiples[0] + x;
+                counter += 2;
+            }
+        } else {
+            answer += x;
+            counter += 1;
+        }
+    }
+
+    answer += " - ";
+    counter = 0;
+    for (int i; counter < 5; i++) {
+        i = counter;
+        string x = getnum(thirdArr[i]);
+        if (thirdArr[i] == thirdArr[i + 1]) {
+            i += 1;
+            if (thirdArr[i] == thirdArr[i + 1]) {
+                i += 1;
+                if (thirdArr[i] == thirdArr[i + 1]) {
+                    i += 1;
+                    if (thirdArr[i] == thirdArr[i + 1]) {
+                        answer += multiples[3] + x;
+                        counter += 5;
+                    } else {
+                        i += 1;
+                        answer += multiples[2] + x;
+                        counter += 4;
+                    }
+
+                } else {
+                    i += 1;
+                    answer += multiples[1] + x;
+                    counter += 3;
+                }
+            } else {
+                i += 1;
+                answer += multiples[0] + x;
+                counter += 2;
+            }
+        } else {
+            answer += x;
+            counter += 1;
+        }
+    }
+
+
+    return answer;
+}
 
 int main() {
 
@@ -213,8 +308,11 @@ int main() {
     }
 
     std::string x = firstFormat(phoneNumber);
+    std::string y = secondFormat(phoneNumber);
     std::cout << "3-4-4 solution" << std::endl;
     std::cout << x << std::endl;
+    std::cout << "3-3-5 solution" << std::endl;
+    std::cout << y << std::endl;
 
     return 0;
 
