@@ -302,6 +302,7 @@ int main() {
         cin >> phoneNumber;
         if (phoneNumber.size() == 11) {
             loop = false;
+            std::cout << "" << std::endl;
         } else {
             phoneNumber = "";
         }
