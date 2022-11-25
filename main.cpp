@@ -64,6 +64,7 @@ Test set 2 - Hidden
  */
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
