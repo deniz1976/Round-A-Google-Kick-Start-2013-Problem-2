@@ -65,6 +65,7 @@ Test set 2 - Hidden
 
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
