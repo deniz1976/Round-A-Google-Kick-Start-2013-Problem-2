@@ -1,0 +1,111 @@
+Start testing: Jan 28 02:16 Türkiye Standart Saati
+----------------------------------------------------------
+1/4 Testing: PhoneNumberReaderTest.Format344
+1/4 Test: PhoneNumberReaderTest.Format344
+Command: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests/Debug/phone_reader_test.exe" "--gtest_filter=PhoneNumberReaderTest.Format344" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests
+"PhoneNumberReaderTest.Format344" start time: Jan 28 02:16 Türkiye Standart Saati
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PhoneNumberReaderTest.Format344
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PhoneNumberReaderTest
+[ RUN      ] PhoneNumberReaderTest.Format344
+[       OK ] PhoneNumberReaderTest.Format344 (0 ms)
+[----------] 1 test from PhoneNumberReaderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PhoneNumberReaderTest.Format344" end time: Jan 28 02:16 Türkiye Standart Saati
+"PhoneNumberReaderTest.Format344" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: PhoneNumberReaderTest.Format335
+2/4 Test: PhoneNumberReaderTest.Format335
+Command: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests/Debug/phone_reader_test.exe" "--gtest_filter=PhoneNumberReaderTest.Format335" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests
+"PhoneNumberReaderTest.Format335" start time: Jan 28 02:16 Türkiye Standart Saati
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PhoneNumberReaderTest.Format335
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PhoneNumberReaderTest
+[ RUN      ] PhoneNumberReaderTest.Format335
+[       OK ] PhoneNumberReaderTest.Format335 (0 ms)
+[----------] 1 test from PhoneNumberReaderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PhoneNumberReaderTest.Format335" end time: Jan 28 02:16 Türkiye Standart Saati
+"PhoneNumberReaderTest.Format335" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: PhoneNumberReaderTest.ValidatePhoneNumber
+3/4 Test: PhoneNumberReaderTest.ValidatePhoneNumber
+Command: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests/Debug/phone_reader_test.exe" "--gtest_filter=PhoneNumberReaderTest.ValidatePhoneNumber" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests
+"PhoneNumberReaderTest.ValidatePhoneNumber" start time: Jan 28 02:16 Türkiye Standart Saati
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PhoneNumberReaderTest.ValidatePhoneNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PhoneNumberReaderTest
+[ RUN      ] PhoneNumberReaderTest.ValidatePhoneNumber
+[       OK ] PhoneNumberReaderTest.ValidatePhoneNumber (0 ms)
+[----------] 1 test from PhoneNumberReaderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PhoneNumberReaderTest.ValidatePhoneNumber" end time: Jan 28 02:16 Türkiye Standart Saati
+"PhoneNumberReaderTest.ValidatePhoneNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: PhoneNumberReaderTest.ValidateFormat
+4/4 Test: PhoneNumberReaderTest.ValidateFormat
+Command: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests/Debug/phone_reader_test.exe" "--gtest_filter=PhoneNumberReaderTest.ValidateFormat" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests
+"PhoneNumberReaderTest.ValidateFormat" start time: Jan 28 02:16 Türkiye Standart Saati
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PhoneNumberReaderTest.ValidateFormat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PhoneNumberReaderTest
+[ RUN      ] PhoneNumberReaderTest.ValidateFormat
+[       OK ] PhoneNumberReaderTest.ValidateFormat (0 ms)
+[----------] 1 test from PhoneNumberReaderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PhoneNumberReaderTest.ValidateFormat" end time: Jan 28 02:16 Türkiye Standart Saati
+"PhoneNumberReaderTest.ValidateFormat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 28 02:16 Türkiye Standart Saati

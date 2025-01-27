@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-src\googletest\src\gtest_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-src\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A70130CB-E742-344D-8B2E-7941C62F430D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

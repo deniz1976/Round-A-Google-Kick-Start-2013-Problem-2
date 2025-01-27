@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests/phone_reader_test[1]_tests.cmake")
+  include("C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/tests/phone_reader_test[1]_tests.cmake")
+else()
+  add_test(phone_reader_test_NOT_BUILT phone_reader_test_NOT_BUILT)
+endif()

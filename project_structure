@@ -1,0 +1,10 @@
+phone_number_reader/
+├── CMakeLists.txt
+├── src/
+│   ├── CMakeLists.txt
+│   ├── main.cpp
+│   └── phone_reader.hpp
+├── tests/
+│   ├── CMakeLists.txt
+│   └── phone_reader_test.cpp
+└── build/ 

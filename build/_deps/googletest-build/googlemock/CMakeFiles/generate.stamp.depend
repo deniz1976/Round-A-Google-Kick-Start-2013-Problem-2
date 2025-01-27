@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake
+C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

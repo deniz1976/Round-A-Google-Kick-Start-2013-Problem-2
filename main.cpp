@@ -65,260 +65,96 @@ Test set 2 - Hidden
 
 #include <iostream>
 #include <string>
-#include <cmath>
+#include <map>
+#include <vector>
 
 using namespace std;
 
-std::string getnum(char a) {
-    if (a == '0') {
-        return "zero ";
-    } else if (a == '1') {
-        return "one ";
-    } else if (a == '2') {
-        return "two ";
-    } else if (a == '3') {
-        return "three ";
-    } else if (a == '4') {
-        return "four ";
-    } else if (a == '5') {
-        return "five ";
-    } else if (a == '6') {
-        return "six ";
-    } else if (a == '7') {
-        return "seven ";
-    } else if (a == '8') {
-        return "eight ";
-    } else {
-        return "nine ";
+class PhoneNumberReader {
+private:
+    static const map<char, string> numberWords;
+    static const vector<string> multipliers;
+    
+    static string getNumberWord(char digit) {
+        return numberWords.at(digit);
     }
-}
-
-// first format is 3-4-4 123 4567 8912
-std::string firstFormat(const std::string &phoneNumber) {
-    std::string multiples[] = {"double ", "triple ", "quadruple ", "quintuple ", "sextuple ", "septuple ", "octuple ",
-                               "nonuple ", "decuple "};
-
-    std::string firstPart = phoneNumber.substr(0, 3); // 0 1 2
-    std::string secondPart = phoneNumber.substr(3, 4); // 3 4 5 6
-    std::string thirdPart = phoneNumber.substr(7); // 7 8 9 10
-
-    char firstArr[10] = {phoneNumber.at(0), phoneNumber.at(1), phoneNumber.at(2), 'a', 'b', 'c', 'd', 'e', 'f', 'g'};
-    char secondArr[10] = {phoneNumber.at(3), phoneNumber.at(4), phoneNumber.at(5), phoneNumber.at(6), 'a', 'b', 'c',
-                          'd', 'f', 'g'};
-    char thirdArr[10] = {phoneNumber.at(7), phoneNumber.at(8), phoneNumber.at(9), phoneNumber.at(10), 'a', 'b', 'c',
-                         'd', 'f', 'g'};
-
-    std::string answer;
-    int counter = 0;
-    for (int i; counter < 3; i++) {
-        i = counter;
-        string x = getnum(firstArr[i]);
-        if (firstArr[i] == firstArr[i + 1]) {
-            i += 1;
-            if (firstArr[i] == firstArr[i + 1]) {
-//                i += 1;
-                counter += 3;
-                answer += multiples[1] + x;
-            } else {
-                i += 1;
-                answer += multiples[0] + x;
-                counter += 2;
+    
+    static string getMultiplier(int count) {
+        if (count <= 1 || count > 10) return "";
+        return multipliers[count - 2];
+    }
+    
+    static string processSegment(const string& segment) {
+        string result;
+        for (size_t i = 0; i < segment.length();) {
+            char current = segment[i];
+            size_t count = 1;
+            
+            while (i + count < segment.length() && segment[i + count] == current) {
+                count++;
             }
-        } else {
-            answer += x;
-            counter += 1;
-        }
-    }
-
-    answer += " - ";
-    counter = 0;
-    for (int i; counter < 4; i++) {
-        i = counter;
-        string x = getnum(secondArr[i]);
-        if (secondArr[i] == secondArr[i + 1]) {
-            i += 1;
-            if (secondArr[i] == secondArr[i + 1]) {
-                i += 1;
-                if (secondArr[i] == secondArr[i + 1]) {
-//                    i += 1;
-                    answer += multiples[2] + x;
-                    counter += 4;
-
-                } else {
-                    i += 1;
-                    answer += multiples[1] + x;
-                    counter += 3;
-                }
+            
+            if (count > 1) {
+                result += getMultiplier(count) + getNumberWord(current);
             } else {
-                i += 1;
-                answer += multiples[0] + x;
-                counter += 2;
+                result += getNumberWord(current);
             }
-        } else {
-            answer += x;
-            counter += 1;
+            
+            i += count;
         }
-    }
-    answer += " - ";
-    counter = 0;
-
-    for (int i; counter < 4; i++) {
-        i = counter;
-        string x = getnum(thirdArr[i]);
-        if (thirdArr[i] == thirdArr[i + 1]) {
-            i += 1;
-            if (thirdArr[i] == thirdArr[i + 1]) {
-                i += 1;
-                if (thirdArr[i] == thirdArr[i + 1]) {
-//                    i += 1;
-                    answer += multiples[2] + x;
-                    counter += 4;
-                } else {
-                    i += 1;
-                    answer += multiples[1] + x;
-                    counter += 3;
-                }
-            } else {
-                i += 1;
-                answer += multiples[0] + x;
-                counter += 2;
-            }
-        } else {
-            answer += x;
-            counter += 1;
-        }
+        return result;
     }
 
-    return answer;
-
-
-}
-
-// second format is 3-3-5 123 456 78912
-std::string secondFormat(const std::string &phoneNumber) {
-    std::string multiples[] = {"double ", "triple ", "quadruple ", "quintuple ", "sextuple ", "septuple ", "octuple ",
-                               "nonuple ", "decuple "};
-
-    std::string firstPart = phoneNumber.substr(0, 3); // 0 1 2
-    std::string secondPart = phoneNumber.substr(3, 3); // 3 4 5
-    std::string thirdPart = phoneNumber.substr(6); // 6 7 8 9 10
-
-    char firstArr[10] = {phoneNumber.at(0), phoneNumber.at(1), phoneNumber.at(2), 'a', 'b', 'c', 'd', 'e', 'f', 'g'};
-    char secondArr[10] = {phoneNumber.at(3), phoneNumber.at(4), phoneNumber.at(5), 'a', 'b', 'c',
-                          'd', 'f', 'g', 'h'};
-    char thirdArr[10] = {phoneNumber.at(6), phoneNumber.at(7), phoneNumber.at(8), phoneNumber.at(9), phoneNumber.at(10),
-                         'a', 'b', 'c',
-                         'd', 'f'};
-
-    std::string answer;
-    int counter = 0;
-    for (int i; counter < 3; i++) {
-        i = counter;
-        string x = getnum(firstArr[i]);
-        if (firstArr[i] == firstArr[i + 1]) {
-            i += 1;
-            if (firstArr[i] == firstArr[i + 1]) {
-//                i += 1;
-                counter += 3;
-                answer += multiples[1] + x;
-            } else {
-                i += 1;
-                answer += multiples[0] + x;
-                counter += 2;
-            }
-        } else {
-            answer += x;
-            counter += 1;
+public:
+    static string formatNumber(const string& phoneNumber, const vector<int>& format) {
+        string result;
+        size_t pos = 0;
+        
+        for (size_t i = 0; i < format.size(); i++) {
+            if (i > 0) result += "- ";
+            string segment = phoneNumber.substr(pos, format[i]);
+            result += processSegment(segment);
+            pos += format[i];
         }
+        
+        return result;
     }
+};
 
-    answer += " - ";
-    counter = 0;
+const map<char, string> PhoneNumberReader::numberWords = {
+    {'0', "zero "}, {'1', "one "}, {'2', "two "}, {'3', "three "},
+    {'4', "four "}, {'5', "five "}, {'6', "six "}, {'7', "seven "},
+    {'8', "eight "}, {'9', "nine "}
+};
 
-    for (int i; counter < 3; i++) {
-        i = counter;
-        string x = getnum(secondArr[i]);
-        if (secondArr[i] == secondArr[i + 1]) {
-            i += 1;
-            if (secondArr[i] == secondArr[i + 1]) {
-//                i += 1;
-                counter += 3;
-                answer += multiples[1] + x;
-            } else {
-                i += 1;
-                answer += multiples[0] + x;
-                counter += 2;
-            }
-        } else {
-            answer += x;
-            counter += 1;
-        }
-    }
-
-    answer += " - ";
-    counter = 0;
-    for (int i; counter < 5; i++) {
-        i = counter;
-        string x = getnum(thirdArr[i]);
-        if (thirdArr[i] == thirdArr[i + 1]) {
-            i += 1;
-            if (thirdArr[i] == thirdArr[i + 1]) {
-                i += 1;
-                if (thirdArr[i] == thirdArr[i + 1]) {
-                    i += 1;
-                    if (thirdArr[i] == thirdArr[i + 1]) {
-                        answer += multiples[3] + x;
-                        counter += 5;
-                    } else {
-                        i += 1;
-                        answer += multiples[2] + x;
-                        counter += 4;
-                    }
-
-                } else {
-                    i += 1;
-                    answer += multiples[1] + x;
-                    counter += 3;
-                }
-            } else {
-                i += 1;
-                answer += multiples[0] + x;
-                counter += 2;
-            }
-        } else {
-            answer += x;
-            counter += 1;
-        }
-    }
-
-
-    return answer;
-}
+const vector<string> PhoneNumberReader::multipliers = {
+    "double ", "triple ", "quadruple ", "quintuple ", "sextuple ",
+    "septuple ", "octuple ", "nonuple ", "decuple "
+};
 
 int main() {
-
     bool loop = true;
-    std::string phoneNumber;
+    string phoneNumber;
+    
     while (loop) {
-        std::cout << "Enter a phone number 11 digits " << std::endl;
+        cout << "Enter a phone number 11 digits " << endl;
         cin >> phoneNumber;
         if (phoneNumber.size() == 11) {
             loop = false;
-            std::cout << "" << std::endl;
-        } else {
-            phoneNumber = "";
+            cout << endl;
         }
     }
 
-    std::string x = firstFormat(phoneNumber);
-    std::string y = secondFormat(phoneNumber);
-    std::cout << "3-4-4 solution" << std::endl;
-    std::cout << x << std::endl;
-    std::cout << "3-3-5 solution" << std::endl;
-    std::cout << y << std::endl;
+    vector<int> format1 = {3, 4, 4}; // 3-4-4 format
+    vector<int> format2 = {3, 3, 5}; // 3-3-5 format
+    
+    cout << "3-4-4 solution" << endl;
+    cout << PhoneNumberReader::formatNumber(phoneNumber, format1) << endl;
+    
+    cout << "3-3-5 solution" << endl;
+    cout << PhoneNumberReader::formatNumber(phoneNumber, format2) << endl;
 
     return 0;
-
 }
 
 

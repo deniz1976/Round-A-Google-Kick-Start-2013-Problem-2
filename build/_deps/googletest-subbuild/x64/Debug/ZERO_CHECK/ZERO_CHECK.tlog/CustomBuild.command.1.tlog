@@ -1,0 +1,10 @@
+^C:\USERS\DENIZ\DESKTOP\ROUND-A-GOOGLE-KICK-START-2013-PROBLEM-2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\4BB3D03BB7A042B93400AE2AC4C79CA7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/_deps/googletest-subbuild -BC:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/_deps/googletest-subbuild/googletest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

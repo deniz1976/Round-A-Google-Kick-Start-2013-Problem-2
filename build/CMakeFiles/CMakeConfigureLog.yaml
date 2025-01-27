@@ -1,0 +1,464 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework için MSBuild sürüm 17.9.8+b34f75857
+      Oluşturma başlatıldı: 28.01.2025 02:12:22.
+      
+      1 düğümünde "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" projesi (varsayılan hedefler).
+      PrepareForBuild:
+        "Debug\\" dizini oluşturuluyor.
+        Yapılandırılmış çıkış etkinleştirildi. Derleyici tanılamasının biçimlendirmesi hata hiyerarşisini yansıtır. Daha fazla ayrıntı için bkz. https://aka.ms/cpp/structured-output.
+        "Debug\\CompilerIdC.tlog\\" dizini oluşturuluyor.
+      InitializeBuildStatus:
+        "AlwaysCreate" belirtildiği için "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" oluşturuluyor.
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" öğesine erişiliyor.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" dosyası siliniyor.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate" öğesine erişiliyor.
+      "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+      
+      Oluşturma başarılı oldu.
+          0 Uyarı
+          0 Hata
+      
+      Geçen Süre 00:00:01.15
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework için MSBuild sürüm 17.9.8+b34f75857
+      Oluşturma başlatıldı: 28.01.2025 02:12:24.
+      
+      1 düğümünde "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" projesi (varsayılan hedefler).
+      PrepareForBuild:
+        "Debug\\" dizini oluşturuluyor.
+        Yapılandırılmış çıkış etkinleştirildi. Derleyici tanılamasının biçimlendirmesi hata hiyerarşisini yansıtır. Daha fazla ayrıntı için bkz. https://aka.ms/cpp/structured-output.
+        "Debug\\CompilerIdCXX.tlog\\" dizini oluşturuluyor.
+      InitializeBuildStatus:
+        "AlwaysCreate" belirtildiği için "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" oluşturuluyor.
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" öğesine erişiliyor.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" dosyası siliniyor.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate" öğesine erişiliyor.
+      "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+      
+      Oluşturma başarılı oldu.
+          0 Uyarı
+          0 Hata
+      
+      Geçen Süre 00:00:01.10
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-cqcala"
+      binary: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-cqcala"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-cqcala'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ea4e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework için MSBuild sürüm 17.9.8+b34f75857
+        Oluşturma başlatıldı: 28.01.2025 02:12:25.
+        
+        1 düğümünde "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqcala\\cmTC_ea4e0.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "cmTC_ea4e0.dir\\Debug\\" dizini oluşturuluyor.
+          Yapılandırılmış çıkış etkinleştirildi. Derleyici tanılamasının biçimlendirmesi hata hiyerarşisini yansıtır. Daha fazla ayrıntı için bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqcala\\Debug\\" dizini oluşturuluyor.
+          "cmTC_ea4e0.dir\\Debug\\cmTC_ea4e0.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_ea4e0.dir\\Debug\\cmTC_ea4e0.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "cmTC_ea4e0.dir\\Debug\\cmTC_ea4e0.tlog\\unsuccessfulbuild" öğesine erişiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea4e0.dir\\Debug\\\\" /Fd"cmTC_ea4e0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.39.33523
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea4e0.dir\\Debug\\\\" /Fd"cmTC_ea4e0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqcala\\Debug\\cmTC_ea4e0.exe" /INCREMENTAL /ILK:"cmTC_ea4e0.dir\\Debug\\cmTC_ea4e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-cqcala/Debug/cmTC_ea4e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-cqcala/Debug/cmTC_ea4e0.lib" /MACHINE:X64  /machine:x64 cmTC_ea4e0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ea4e0.vcxproj -> C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqcala\\Debug\\cmTC_ea4e0.exe
+        FinalizeBuildStatus:
+          "cmTC_ea4e0.dir\\Debug\\cmTC_ea4e0.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_ea4e0.dir\\Debug\\cmTC_ea4e0.tlog\\cmTC_ea4e0.lastbuildstate" öğesine erişiliyor.
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqcala\\cmTC_ea4e0.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+        
+        Oluşturma başarılı oldu.
+            0 Uyarı
+            0 Hata
+        
+        Geçen Süre 00:00:01.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-nreskv"
+      binary: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-nreskv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-nreskv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a8b9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework için MSBuild sürüm 17.9.8+b34f75857
+        Oluşturma başlatıldı: 28.01.2025 02:12:28.
+        
+        1 düğümünde "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nreskv\\cmTC_a8b9f.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "cmTC_a8b9f.dir\\Debug\\" dizini oluşturuluyor.
+          Yapılandırılmış çıkış etkinleştirildi. Derleyici tanılamasının biçimlendirmesi hata hiyerarşisini yansıtır. Daha fazla ayrıntı için bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nreskv\\Debug\\" dizini oluşturuluyor.
+          "cmTC_a8b9f.dir\\Debug\\cmTC_a8b9f.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_a8b9f.dir\\Debug\\cmTC_a8b9f.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "cmTC_a8b9f.dir\\Debug\\cmTC_a8b9f.tlog\\unsuccessfulbuild" öğesine erişiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a8b9f.dir\\Debug\\\\" /Fd"cmTC_a8b9f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.39.33523
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a8b9f.dir\\Debug\\\\" /Fd"cmTC_a8b9f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nreskv\\Debug\\cmTC_a8b9f.exe" /INCREMENTAL /ILK:"cmTC_a8b9f.dir\\Debug\\cmTC_a8b9f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-nreskv/Debug/cmTC_a8b9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-nreskv/Debug/cmTC_a8b9f.lib" /MACHINE:X64  /machine:x64 cmTC_a8b9f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a8b9f.vcxproj -> C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nreskv\\Debug\\cmTC_a8b9f.exe
+        FinalizeBuildStatus:
+          "cmTC_a8b9f.dir\\Debug\\cmTC_a8b9f.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_a8b9f.dir\\Debug\\cmTC_a8b9f.tlog\\cmTC_a8b9f.lastbuildstate" öğesine erişiliyor.
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nreskv\\cmTC_a8b9f.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+        
+        Oluşturma başarılı oldu.
+            0 Uyarı
+            0 Hata
+        
+        Geçen Süre 00:00:00.98
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-l8888z"
+      binary: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-l8888z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-l8888z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ecdf0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework için MSBuild sürüm 17.9.8+b34f75857
+        Oluşturma başlatıldı: 28.01.2025 02:12:51.
+        
+        1 düğümünde "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\cmTC_ecdf0.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "cmTC_ecdf0.dir\\Debug\\" dizini oluşturuluyor.
+          Yapılandırılmış çıkış etkinleştirildi. Derleyici tanılamasının biçimlendirmesi hata hiyerarşisini yansıtır. Daha fazla ayrıntı için bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\Debug\\" dizini oluşturuluyor.
+          "cmTC_ecdf0.dir\\Debug\\cmTC_ecdf0.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_ecdf0.dir\\Debug\\cmTC_ecdf0.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "cmTC_ecdf0.dir\\Debug\\cmTC_ecdf0.tlog\\unsuccessfulbuild" öğesine erişiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ecdf0.dir\\Debug\\\\" /Fd"cmTC_ecdf0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\src.c"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.39.33523
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ecdf0.dir\\Debug\\\\" /Fd"cmTC_ecdf0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\src.c"
+          src.c
+        C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\src.c(1,10): error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\cmTC_ecdf0.vcxproj]
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\cmTC_ecdf0.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+        
+        Oluşturma BAŞARISIZ OLDU.
+        
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\cmTC_ecdf0.vcxproj" (varsayılan hedef) (1) ->
+        (ClCompile hedefi) -> 
+          C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\src.c(1,10): error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8888z\\cmTC_ecdf0.vcxproj]
+        
+            0 Uyarı
+            1 Hata
+        
+        Geçen Süre 00:00:00.74
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-pn6f5y"
+      binary: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-pn6f5y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-pn6f5y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_056fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework için MSBuild sürüm 17.9.8+b34f75857
+        Oluşturma başlatıldı: 28.01.2025 02:12:52.
+        
+        1 düğümünde "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\cmTC_056fa.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "cmTC_056fa.dir\\Debug\\" dizini oluşturuluyor.
+          Yapılandırılmış çıkış etkinleştirildi. Derleyici tanılamasının biçimlendirmesi hata hiyerarşisini yansıtır. Daha fazla ayrıntı için bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\Debug\\" dizini oluşturuluyor.
+          "cmTC_056fa.dir\\Debug\\cmTC_056fa.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_056fa.dir\\Debug\\cmTC_056fa.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "cmTC_056fa.dir\\Debug\\cmTC_056fa.tlog\\unsuccessfulbuild" öğesine erişiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_056fa.dir\\Debug\\\\" /Fd"cmTC_056fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\CheckFunctionExists.c"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.39.33523
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_056fa.dir\\Debug\\\\" /Fd"cmTC_056fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\Debug\\cmTC_056fa.exe" /INCREMENTAL /ILK:"cmTC_056fa.dir\\Debug\\cmTC_056fa.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-pn6f5y/Debug/cmTC_056fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-pn6f5y/Debug/cmTC_056fa.lib" /MACHINE:X64  /machine:x64 cmTC_056fa.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\cmTC_056fa.vcxproj]
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\cmTC_056fa.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+        
+        Oluşturma BAŞARISIZ OLDU.
+        
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\cmTC_056fa.vcxproj" (varsayılan hedef) (1) ->
+        (Link hedefi) -> 
+          LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn6f5y\\cmTC_056fa.vcxproj]
+        
+            0 Uyarı
+            1 Hata
+        
+        Geçen Süre 00:00:00.70
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-jsmg4g"
+      binary: "C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-jsmg4g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-jsmg4g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_151c0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework için MSBuild sürüm 17.9.8+b34f75857
+        Oluşturma başlatıldı: 28.01.2025 02:12:53.
+        
+        1 düğümünde "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\cmTC_151c0.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "cmTC_151c0.dir\\Debug\\" dizini oluşturuluyor.
+          Yapılandırılmış çıkış etkinleştirildi. Derleyici tanılamasının biçimlendirmesi hata hiyerarşisini yansıtır. Daha fazla ayrıntı için bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\Debug\\" dizini oluşturuluyor.
+          "cmTC_151c0.dir\\Debug\\cmTC_151c0.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_151c0.dir\\Debug\\cmTC_151c0.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "cmTC_151c0.dir\\Debug\\cmTC_151c0.tlog\\unsuccessfulbuild" öğesine erişiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_151c0.dir\\Debug\\\\" /Fd"cmTC_151c0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\CheckFunctionExists.c"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.39.33523
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_151c0.dir\\Debug\\\\" /Fd"cmTC_151c0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\Debug\\cmTC_151c0.exe" /INCREMENTAL /ILK:"cmTC_151c0.dir\\Debug\\cmTC_151c0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-jsmg4g/Debug/cmTC_151c0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/CMakeFiles/CMakeScratch/TryCompile-jsmg4g/Debug/cmTC_151c0.lib" /MACHINE:X64  /machine:x64 cmTC_151c0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\cmTC_151c0.vcxproj]
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\cmTC_151c0.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+        
+        Oluşturma BAŞARISIZ OLDU.
+        
+        "C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\cmTC_151c0.vcxproj" (varsayılan hedef) (1) ->
+        (Link hedefi) -> 
+          LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\Users\\Deniz\\Desktop\\Round-A-Google-Kick-Start-2013-Problem-2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsmg4g\\cmTC_151c0.vcxproj]
+        
+            0 Uyarı
+            1 Hata
+        
+        Geçen Süre 00:00:00.61
+        
+      exitCode: 1
+...

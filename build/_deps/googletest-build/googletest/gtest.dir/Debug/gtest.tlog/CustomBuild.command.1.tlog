@@ -1,0 +1,10 @@
+^C:\USERS\DENIZ\DESKTOP\ROUND-A-GOOGLE-KICK-START-2013-PROBLEM-2\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLETEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2 -BC:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build --check-stamp-file C:/Users/Deniz/Desktop/Round-A-Google-Kick-Start-2013-Problem-2/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

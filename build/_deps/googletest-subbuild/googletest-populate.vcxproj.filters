@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\99f44f86cc39f5b70f5fc953d6d6877f\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\f2f4294ac827305253bab83b59484598\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\4bb3d03bb7a042b93400ae2ac4c79ca7\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Deniz\Desktop\Round-A-Google-Kick-Start-2013-Problem-2\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BC7C8272-A939-30BE-AF0B-E2A5D873B9F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

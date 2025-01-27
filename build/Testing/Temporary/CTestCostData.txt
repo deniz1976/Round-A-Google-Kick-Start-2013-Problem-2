@@ -1,0 +1,5 @@
+PhoneNumberReaderTest.Format344 3 0.0060483
+PhoneNumberReaderTest.Format335 1 0.0187569
+PhoneNumberReaderTest.ValidatePhoneNumber 3 0.00474093
+PhoneNumberReaderTest.ValidateFormat 3 0.00433293
+---
