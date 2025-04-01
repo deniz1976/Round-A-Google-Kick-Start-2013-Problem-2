@@ -4,13 +4,11 @@ project(phone_number_reader)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Runtime library ayarları
 if(MSVC)
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
     set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 endif()
 
-# Google Test'i indirme ve kurma
 include(FetchContent)
 FetchContent_Declare(
     googletest
